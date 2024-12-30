@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  font-family: "Outfit", serif;
+}
+
+.rich-text {
+  font-size: 15px;
+  color: #7a7b7d;
+}
+.rich-text p {
+  margin-bottom: 16px;
+}
+.rich-text h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #252525;
+  margin: 24px 0;
+}
+.rich-text ol {
+  margin-left: 30px;
+  list-style-type: decimal;
+}
+.rich-text li {
+  margin-bottom: 8px;
+}
